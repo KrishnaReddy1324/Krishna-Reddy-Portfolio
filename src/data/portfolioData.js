@@ -96,25 +96,29 @@ export const portfolioData = {
       id: 1,
       name: "AWS Certified Solutions Architect",
       provider: "Amazon Web Services",
-      url: "https://www.credly.com/go/G5kz59i2"
+      url: "https://www.credly.com/go/G5kz59i2",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
     },
     {
       id: 2,
       name: "Microsoft Certified: Azure Fundamentals",
       provider: "Microsoft",
-      url: "https://www.mygreatlearning.com/certificate/TRIWJQIU?referrer_code=GLJSVKWW"
+      url: "https://www.mygreatlearning.com/certificate/TRIWJQIU?referrer_code=GLJSVKWW",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg"
     },
     {
       id: 3,
       name: "Oracle Cloud Infrastructure 2025 Certified Foundations Associate",
       provider: "Oracle",
-      url: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=A9433208B1737A9EF423DD575E110AFDFF67B12C445F92F28A9713F02C9572D7"
+      url: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=A9433208B1737A9EF423DD575E110AFDFF67B12C445F92F28A9713F02C9572D7",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg"
     },
     {
       id: 4,
       name: "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
       provider: "Oracle",
-      url: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=32E0748228424B2431EDA5D27E111D35AF9EE9B062119582D826038DB76B64D1"
+      url: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=32E0748228424B2431EDA5D27E111D35AF9EE9B062119582D826038DB76B64D1",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg"
     }
   ],
   skills: [

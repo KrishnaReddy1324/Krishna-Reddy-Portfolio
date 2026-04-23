@@ -52,3 +52,13 @@
   color: var(--accent-secondary);
   transform: translateX(5px);
 }
+
+.cert-logo {
+  height: 60px;
+  width: auto;
+  margin-bottom: 1.5rem;
+  object-fit: contain;
+  background: white;
+  padding: 0.5rem;
+  border-radius: 8px;
+}

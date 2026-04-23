@@ -35,7 +35,11 @@ const Certifications = () => {
               transition={{ duration: 0.5, delay: index * 0.15 }}
               variants={itemVariants}
             >
-              <SealCheck size={40} weight="light" className="edu-icon" />
+              {cert.logo ? (
+                <img src={cert.logo} alt={cert.provider} className="cert-logo" />
+              ) : (
+                <SealCheck size={40} weight="light" className="edu-icon" />
+              )}
               <h3>{cert.name}</h3>
               <span className="university">{cert.provider}</span>
               <a href={cert.url} target="_blank" rel="noreferrer" className="cert-link">
