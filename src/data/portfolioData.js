@@ -72,23 +72,26 @@ export const portfolioData = {
     {
       id: 1,
       degree: "Multimedia Technologies",
-      university: "Gandhi Univercity",
+      university: "Gandhi University",
       date: "2011 - 2012",
-      iconType: "monitor-play"
+      iconType: "monitor-play",
+      concepts: ["Digital Media Design", "Visual Communication", "UI/UX Fundamentals"]
     },
     {
       id: 2,
       degree: "Master of Computer Science",
-      university: "Ousmania University",
+      university: "Osmania University",
       date: "2008 - 2010",
-      iconType: "graduation-cap"
+      iconType: "graduation-cap",
+      concepts: ["Advanced Algorithms", "Software Engineering", "Database Management Systems", "Network Security"]
     },
     {
       id: 3,
-      degree: "BSC Computer Science",
-      university: "Ousmania University",
+      degree: "BSc Computer Science",
+      university: "Osmania University",
       date: "2003 - 2006",
-      iconType: "certificate"
+      iconType: "certificate",
+      concepts: ["Programming Fundamentals", "Data Structures", "Operating Systems", "Web Development Basics"]
     }
   ],
   certifications: [

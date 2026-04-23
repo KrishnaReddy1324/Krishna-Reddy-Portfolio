@@ -48,6 +48,13 @@ const Education = () => {
               <h3>{edu.degree}</h3>
               <span className="university">{edu.university}</span>
               <span className="date">{edu.date}</span>
+              {edu.concepts && (
+                <div className="edu-concepts">
+                  {edu.concepts.map((concept, i) => (
+                    <span key={i} className="concept-tag">{concept}</span>
+                  ))}
+                </div>
+              )}
             </motion.div>
           ))}
         </div>

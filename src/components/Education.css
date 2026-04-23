@@ -62,3 +62,26 @@
   padding: 0.5rem;
   border-radius: 8px;
 }
+
+.edu-concepts {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.concept-tag {
+  font-size: 0.85rem;
+  background: rgba(139, 92, 246, 0.1);
+  color: var(--accent-secondary);
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  transition: all 0.3s ease;
+}
+
+.concept-tag:hover {
+  background: rgba(139, 92, 246, 0.2);
+  transform: translateY(-2px);
+}
