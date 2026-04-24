@@ -21,12 +21,12 @@
 }
 
 .skill-tags span {
-  padding: 0.5rem 1rem;
-  background: rgba(37, 99, 235, 0.05);
-  border: 1px solid var(--border-color);
+  padding: 0.4rem 0.8rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 20px;
-  font-size: 0.9rem;
-  color: var(--text-secondary);
+  font-size: 0.85rem;
+  color: #d4af37;
   transition: all 0.3s ease;
   cursor: default;
 }

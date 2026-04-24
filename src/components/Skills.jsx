@@ -54,7 +54,7 @@ const Skills = () => {
                     key={idx}
                     variants={tagVariants}
                     transition={{ duration: 0.3 }}
-                    whileHover={{ scale: 1.05, backgroundColor: 'rgba(255, 255, 255, 0.2)', borderColor: '#ffffff' }}
+                    whileHover={{ scale: 1.05, backgroundColor: 'rgba(255, 255, 255, 0.2)', y: -2 }}
                   >
                     {tag}
                   </motion.span>
