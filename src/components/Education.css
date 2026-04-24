@@ -16,7 +16,7 @@
 .edu-icon {
   color: var(--accent-primary);
   margin-bottom: 1.5rem;
-  background: rgba(37, 99, 235, 0.1);
+  background: rgba(255, 255, 255, 0.1);
   padding: 1rem;
   border-radius: 50%;
 }
@@ -73,15 +73,15 @@
 
 .concept-tag {
   font-size: 0.85rem;
-  background: rgba(37, 99, 235, 0.1);
+  background: rgba(255, 255, 255, 0.1);
   color: var(--accent-secondary);
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
-  border: 1px solid rgba(37, 99, 235, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease;
 }
 
 .concept-tag:hover {
-  background: rgba(37, 99, 235, 0.2);
+  background: rgba(255, 255, 255, 0.2);
   transform: translateY(-2px);
 }

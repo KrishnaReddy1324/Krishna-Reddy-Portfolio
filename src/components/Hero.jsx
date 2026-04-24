@@ -50,8 +50,8 @@ const Hero = () => {
             className="name"
             whileHover={{
               scale: 1.05,
-              color: '#2563eb', // matching accent-primary
-              textShadow: '0 0 15px rgba(37, 99, 235, 0.6)'
+              color: '#f8f8f8', // matching accent-primary
+              textShadow: '0 0 15px rgba(255, 255, 255, 0.6)'
             }}
             transition={{ duration: 0.3 }}
             style={{ cursor: 'default', display: 'inline-block' }}
