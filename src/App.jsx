@@ -22,7 +22,7 @@ function App() {
         <Skills />
         <Contact />
       </main>
-      <footer style={{ textAlign: 'center', padding: '2rem', borderTop: '1px solid var(--border-color)', color: '#d4af37' }}>
+      <footer style={{ textAlign: 'center', padding: '2rem', borderTop: '1px solid var(--border-color)', color: '#ffd700' }}>
         <p>Designed & Built by {portfolioData.personalInfo.name}</p>
       </footer>
     </>

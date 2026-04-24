@@ -33,7 +33,7 @@
 }
 
 .logo span {
-  color: #d4af37;
+  color: #ffd700;
 }
 
 .nav-links {
@@ -51,7 +51,7 @@
 
 .nav-links a:hover,
 .nav-links a.active {
-  color: #d4af37;
+  color: #ffd700;
 }
 
 .nav-links a::after {
@@ -61,7 +61,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #d4af37, #f3e5ab);
+  background: #ffd700;
   transition: width 0.3s ease;
 }
 
