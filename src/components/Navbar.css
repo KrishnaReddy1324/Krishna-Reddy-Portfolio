@@ -33,7 +33,7 @@
 }
 
 .logo span {
-  color: var(--accent-primary);
+  color: #d4af37;
 }
 
 .nav-links {
@@ -51,7 +51,7 @@
 
 .nav-links a:hover,
 .nav-links a.active {
-  color: var(--text-primary);
+  color: #d4af37;
 }
 
 .nav-links a::after {
@@ -61,7 +61,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, var(--accent-primary), var(--accent-secondary));
+  background: linear-gradient(to right, #d4af37, #f3e5ab);
   transition: width 0.3s ease;
 }
 
