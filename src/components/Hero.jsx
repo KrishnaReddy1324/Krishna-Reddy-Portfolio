@@ -6,7 +6,7 @@ import './Hero.css';
 
 const Hero = () => {
   const { personalInfo } = portfolioData;
-  const [profileImg, setProfileImg] = useState('/my photo.png');
+  const [profileImg, setProfileImg] = useState(`${import.meta.env.BASE_URL}my photo.png`);
 
   const handleImageUpload = (e) => {
     const file = e.target.files[0];
